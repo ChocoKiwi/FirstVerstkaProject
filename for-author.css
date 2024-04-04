@@ -1,0 +1,438 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(242, 242, 242);
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, rgb(242, 242, 242), rgb(228, 223, 223), rgb(242, 242, 242));
+    border-image-slice: 1;
+    border-radius: 60px;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    font-family: "Cormorant Infant", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    transition: all 250ms ease;
+    margin: 0 80px;
+}
+
+.onas {
+    color: rgb(14, 57, 68) !important;
+    font-weight: 700 !important;
+}
+
+.header-container a:hover {
+    color: rgb(14, 57, 68);
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+header h1 {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(14, 57, 68);
+}
+
+header p {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+.author-info {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 5px 9px 1px rgba(152, 152, 152, 0.1);
+}
+
+.info-info {
+    width: 1000px;
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+
+.info-info img {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: -1px 1px 20px 0 rgba(128, 128, 128, 0.25);
+    border: 1px solid #2F5972;
+    object-fit: cover;
+}
+
+.info-info .balance {
+    min-width: 300px;
+    max-width: 300px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #2F5972;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.info-info .balance p {
+    font-size: 17px;
+    color: #0E3944;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+.info-info .top-balance {
+    border: none;
+    outline: none;
+    background-color: #2F5972;
+    color: white;
+    min-height: 40px;
+    min-width: 300px;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: "Didact Gothic", sans-serif;
+    transition: all 300ms ease;
+    margin-bottom: 15px;
+}
+
+.info-info .top-balance:hover {
+    background-color: #0E3944;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #2F5972;
+    margin-bottom: 2px;
+}
+
+.flex:last-child {
+    color: grey;
+}
+
+.flex-repost {
+    justify-content: space-between !important;
+    font-size: 15px;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+.flex .material-symbols-outlined {
+    font-size: 19px !important;
+    margin-right: 5px;
+}
+
+.flex-repost li {
+    color: grey;
+    font-size: 12px;
+}
+
+.flex:hover {
+    transition: all 300ms ease;
+    cursor: pointer;
+    background-color: rgba(210, 210, 210, 0.3);
+    border-radius: 5px;
+}
+
+.setting {
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 2px solid rgba(128, 128, 128, 0.2);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+}
+
+.right-text {
+    width: 675px;
+}
+
+.right-text h2 {
+    font-size: 18px;
+    width: 900;
+    font-family: "Didact Gothic", sans-serif;
+    color: #2F5972;
+}
+
+.right-text .author-text {
+    text-align: justify;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+    min-height: 130px;
+}
+
+.right-text .tarif {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 13px;
+    color: gray;
+}
+
+.right-text .tarif span {
+    color: #2F5972;
+    width: 900;
+    font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info p {
+    color: grey;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 10px;
+}
+
+.info-info h1 {
+    font-size: 26px;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    color: #0e2f44;
+}
+
+.items {
+    width: 675px;
+    margin: 20px 0 0 590px
+}
+
+.items h2 {
+    font-size: 26px;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    color: #0e2f44;
+}
+
+.items .my-item {
+    padding-right: 10px;
+    width: 85%;
+    height: 90px;
+    background-color: rgb(242, 242, 242);
+    transition: all 540ms ease-out;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.items .my-item .material-symbols-outlined {
+    background-color: #2F5972;
+    transition: all 300ms ease-in-out;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 15px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 5
+}
+
+.items .my-item .material-symbols-outlined:hover {
+    cursor: pointer;
+    background-color: #0E3944;
+}
+
+.items .my-item:hover {
+    width: 100%;
+}
+
+.my-item img {
+    height: 100%;
+    width: 177px;
+    object-fit: cover;
+}
+
+.items .my-item-relative {
+    position: absolute;
+    width: 575px;
+    height: 90px;
+    background-color: white;
+    left: 0%;
+    transition: all 540ms ease-in-out;
+    display: flex;
+}
+
+.items .my-item-relative:hover {
+    cursor: pointer;
+}
+
+.items .my-item-relative h3 {
+    color: #0e2f44;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+.items .my-item-relative .wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.items .my-item-relative p {
+    color: #2F5972;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+.items .my-item-relative p.recom:hover {
+    color: #0E3944;
+    width: 900;
+}
+
+.row-import {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-import .box-infoinfo {
+    display: flex;
+    width: 260px;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.row-import .box-infoinfo h6 {
+    font-size: 12px;
+    font-family: "Didact Gothic", sans-serif;
+    color: #2F5972;
+}
+
+.items .my-item-relative.position {
+    position: unset !important;
+    margin-bottom: 10px;
+}
+
+div.my-item-relative.position img {
+    height: 100%;
+    width: 185px;
+    object-fit: cover;
+}
+
+.popular-info-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-footer-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-author {
+    display: flex;
+    align-items: center;
+}
+
+.footer-author p {
+    font-size: 12px;
+    color: rgba(110, 110, 110, 0.889);
+}
+
+.footer-author>.material-symbols-outlined {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #2f5972;
+}
+
+.two {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+footer {
+    background-image: linear-gradient(#154F5D, #0A2044);
+    padding: 50px 0 50px 0;
+    margin-top: 50px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.footer-conatiner {
+    margin: 0 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.project {
+    max-height: 500px;
+    height: 100%;
+}
+
+.project h6 {
+    color: white;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.project ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    height: 250px;
+
+}
+
+.project li {
+    color: white;
+    list-style-type: none;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.poderjka {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.lern {
+    margin-bottom: 20px;
+}
+
+.project li:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,550 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 15vh;
+    background-color: rgb(242, 242, 242);
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, rgb(242, 242, 242), rgb(228, 223, 223), rgb(242, 242, 242));
+    border-image-slice: 1;
+    border-radius: 60px;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    font-family: "Cormorant Infant", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    transition: all 250ms ease;
+    margin: 0 80px;
+}
+
+.onas {
+    color: rgb(14, 57, 68) !important;
+    font-weight: 700 !important;
+}
+
+.header-container a:hover {
+    color: rgb(14, 57, 68);
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+header h1 {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(14, 57, 68);
+}
+
+header p {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+}
+
+.popular {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(242, 242, 242);
+    padding: 0 0 36px 0;
+    border-radius: 0 0 150px 150px;
+    box-shadow: 0 12px 9px 1px rgba(90, 90, 90, 0.1);
+}
+
+.popular-img {
+    padding: 0 20px 0 75px;
+    width: 450px;
+    height: 270px;
+    border-left: 1px solid rgb(90, 90, 90);
+}
+
+.popular-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.popular-info {
+    border-right: 1px solid rgb(90, 90, 90);
+    ;
+    padding: 0 75px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 270px;
+    max-width: 400px;
+}
+
+.popular-info h2 {
+    font-family: "Sofia Sans Condensed";
+    font-size: 30px;
+    color: rgb(14, 57, 68);
+    text-align: justify;
+}
+
+.info-box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.info-box>.gift {
+    border-right: 1px solid rgba(110, 110, 110, 0.618);
+    padding: 10px 10px 10px 0;
+    margin: 0 5px 0 0;
+}
+
+.info-box>.gift h6 {
+    font-family: "Didact Gothic", sans-serif;
+    color: #2f5972;
+    font-size: 20px;
+}
+
+.info-box>.gift p {
+    font-family: "Forum", serif;
+    color: #2f5972;
+    font-size: 19px;
+    text-align: center;
+}
+
+.info-box>.material-symbols-outlined {
+    font-size: 30px;
+    color: #2f5972;
+}
+
+.popular-info-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-info p {
+    font-family: "Source Code Pro", monospace;
+    color: #2f5972;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.popular-info-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-footer-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-author {
+    display: flex;
+    align-items: center;
+}
+
+.footer-author p {
+    font-size: 12px;
+    color: rgba(110, 110, 110, 0.889);
+}
+
+.footer-author>.material-symbols-outlined {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #2f5972;
+}
+
+.two {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.popular-button {
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    background-color: #2f5972;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 350ms ease;
+}
+
+.popular-button:hover {
+    background-color: rgb(14, 57, 68);
+    cursor: pointer;
+}
+
+.swap {
+    position: absolute;
+    top: 120px;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 21px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    left: 215px;
+}
+
+.right {
+    right: 215px;
+    top: 120px;
+}
+
+.swap>.material-symbols-outlined {
+    color: #2f5972;
+    border-radius: 25px;
+    padding: 9px 9px;
+}
+
+.swap>.material-symbols-outlined:hover {
+    background-color: rgb(90, 90, 90);
+    color: white;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.interesting {
+    font-family: "Didact Gothic", sans-serif;
+    color: #0E3944;
+    font-size: 20px;
+    text-align: center;
+    padding: 27px 0 10px 0;
+}
+
+.header-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.header-box {
+    display: flex;
+}
+
+.for-sure {
+    margin-right: 30px;
+}
+
+.header-box-img {
+    height: 165px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: #0E3944;
+    margin-right: 20px;
+}
+
+.header-box-img img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.header-box-info {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-size: 18px;
+    width: 265px;
+    max-height: 175px;
+    text-align: left;
+    color: #0E3944;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    margin: 10px 0;
+}
+
+.box-infoinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-infoinfo>.info-box>.gift {
+    border: none !important;
+    padding: 0;
+}
+
+.box-infoinfo>.info-box>.gift p,
+.box-infoinfo>.info-box>.gift h6 {
+    font-size: 14px;
+}
+
+.box-infoinfo>.info-box>.gift h6:hover {
+    cursor: pointer;
+    color: #2f5972;
+}
+
+.three {
+    font-size: 10px;
+}
+
+.footer-author>p {
+    font-size: 9px;
+    font-family: "Fira Code", monospace;
+}
+
+.footer-author>h4 {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-size: 24px;
+}
+
+.footer-author>span {
+    text-align: center;
+    font-size: 50px;
+}
+
+.links {
+    padding: 50px 0 0 0;
+    font-family: "Cormorant Infant", serif;
+    color: rgb(90, 90, 90);
+    font-weight: 700;
+    font-family: 10px;
+    margin: 0 185px;
+}
+
+.links li:hover {
+    color: #3a6e8d;
+    cursor: pointer;
+    font-weight: 900;
+    transition: all 200ms ease;
+}
+
+.links li {
+    border-bottom: 5px solid rgba(90, 90, 90, 0.237);
+    padding: 0 10px 5px 10px;
+}
+
+.number {
+    color: rgba(90, 90, 90, 0.601);
+}
+
+.all {
+    color: #3a6e8d;
+    border-bottom: 5px solid #3a6e8d !important;
+    padding: 0 10px 0 0 !important;
+}
+
+.links ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lili {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.else {
+    padding: 0 0 5px 558px !important;
+}
+
+.div {
+    border-radius: 150px;
+}
+
+.content-boxes>.box {
+    width: 245px;
+    height: 290px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 30px;
+    box-shadow: 3px 3px 9px 1px rgba(90, 90, 90, 0.2);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-boxes {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(110, 110, 110, 0.2);
+}
+
+.content-container {
+    margin: 0 185px;
+}
+
+.content-container>.content-boxes>.box>.box-img {
+    position: relative;
+    width: 245px;
+    height: 125px;
+    background-color: #0E3944;
+    border-radius: 30px 30px 0 0;
+}
+
+.content-container>.content-boxes>.box>.box-img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.content-container>.content-boxes>.box>.box-img>.material-symbols-outlined {
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    color: rgb(242, 242, 242);
+    transition: all 300ms ease;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.content-container>.content-boxes>.box>.box-img>.material-symbols-outlined.for-sure {
+    color: #ff0033;
+}
+
+.content-container>.content-boxes>.box>.box-img>.material-symbols-outlined:hover {
+    color: #ff0033;
+    cursor: pointer;
+}
+
+.content-container>.content-boxes>.box>.box-info h3 {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    color: rgb(14, 57, 68);
+    margin-bottom: 10px;
+    min-height: 50px;
+}
+
+.content-container>.content-boxes>.box>.box-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding-top: 10px;
+    max-width: 210px;
+}
+
+.content {
+    min-width: 210px !important;
+    margin-bottom: 10px;
+}
+
+body>div.content-container>div>div:nth-child(1)>div.box-info>div.popular-info-footer>div>div.footer-author.author>p>span,
+body>div.content-container>div>div:nth-child(1)>div.box-info>div.popular-info-footer>div>div.footer-author.date>p {
+    font-size: 8px !important;
+}
+
+.four {
+    font-size: 8px;
+    padding: 10px 10px;
+}
+
+.box-info>.popular-info-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+
+footer {
+    background-image: linear-gradient(#154F5D, #0A2044);
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-conatiner {
+    margin: 0 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.project {
+    max-height: 500px;
+    height: 100%;
+}
+
+.project h6 {
+    color: white;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.project ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    height: 250px;
+
+}
+
+.project li {
+    color: white;
+    list-style-type: none;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.poderjka {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.lern {
+    margin-bottom: 20px;
+}
+
+.project li:hover {
+    cursor: pointer;
+}
+
+.elseelse {
+    text-align: center;
+    position: absolute;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: white;
+    padding: 0 20px;
+    top: 661px;
+    left: 45.8%;
+    color: gray;
+}
+
+.elseelse:hover {
+    transition: all 600ms ease;
+    font-weight: 1000;
+    color: #0A2044;
+    cursor: pointer;
+}

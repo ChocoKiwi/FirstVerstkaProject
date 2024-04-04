@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 20vh;
+    background-color: rgb(242, 242, 242);
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, rgb(242, 242, 242), rgb(228, 223, 223), rgb(242, 242, 242));
+    border-image-slice: 1;
+    border-radius: 60px;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    font-family: "Cormorant Infant", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    transition: all 250ms ease;
+    margin: 0 80px;
+}
+
+.onas {
+    color: rgb(14, 57, 68) !important;
+    font-weight: 700 !important;
+}
+
+.header-container a:hover {
+    color: rgb(14, 57, 68);
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+header h1 {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(14, 57, 68);
+}
+
+header p {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+.present-body {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.present-body-img img {
+    width: 450px;
+}
+
+.present-body-text {
+    max-width: 623px;
+    margin-right: 50px;
+}
+
+.present-body-text h2 {
+    background-color: rgb(14, 57, 68);
+    color: white;
+    padding: 2px 43px;
+    border-radius: 10px;
+    font-size: 42px;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.present-body-text p {
+    font-size: 30px;
+    max-width: 488px;
+    text-align: justify;
+    font-family: "Source Code Pro", monospace;
+}
+
+.present-footer {
+    padding: 20px;
+    background-color: rgb(14, 57, 68);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    justify-content: center;
+    height: 194px;
+}
+
+.box>p {
+    font-size: 17px;
+    font-family: "Fira Code", monospace;
+}
+
+.box>h4 {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-size: 24px;
+}
+
+.box>span {
+    text-align: center;
+    font-size: 50px;
+}
+
+.register {
+    background-color: white;
+    padding: 50px 0 50px 0;
+}
+
+.register-title h3 {
+    font-family: "Source Code Pro", monospace;
+    width: 300;
+    font-size: 30px;
+    color: rgb(21, 84, 99);
+    text-align: center;
+}
+
+.register-form>form>label>input {
+    border: none;
+    outline: none;
+    width: 695px;
+    font-size: 16px;
+    background-color: rgb(0, 0, 0, 0);
+    box-shadow: none;
+    transition: all 50000s ease;
+}
+
+.register-form>form>label {
+    padding: 15px 10px;
+    border: 1px solid rgb(21, 84, 99);
+    width: 700px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: all 350ms ease-in;
+}
+
+.register-form>form>label:hover,
+.register-form>form>label>input:hover {
+    cursor: pointer;
+    width: 710px;
+}
+
+.register-form>form>label:focus,
+.register-form>form>label>input:focus {
+    width: 750px;
+}
+
+.register-form>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+body>div.register>div.register-form>form>.buttons>button.confirm,
+.popular-button {
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    background-color: #2f5972;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 350ms ease;
+    margin: 0 10px;
+}
+
+body>div.register>div.register-form>form>.buttons>button.confirm {
+    margin: 15px 0;
+}
+
+.popular-button {
+    margin: 0;
+}
+
+body>div.register>div.register-form>form>.buttons>button.confirm:hover,
+.popular-button:hover {
+    background-color: rgb(14, 57, 68);
+    cursor: pointer;
+}
+
+body>div.register>div.register-form>form>.buttons>button.reset {
+    border: none;
+    outline: none;
+    color: rgb(14, 57, 68);
+    margin: 0 10px;
+    font-size: 15px;
+    transition: all ease 300ms;
+}
+
+body>div.register>div.register-form>form>.buttons>button.reset:hover {
+    color: rgb(21, 84, 99);
+    cursor: pointer;
+}
+
+.popular {
+    display: flex;
+    justify-content: center;
+    padding: 55px 0;
+    background-color: white;
+}
+
+.popular-img {
+    padding: 0 20px;
+    width: 450px;
+    height: 270px;
+}
+
+.popular-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.popular-info {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 270px;
+    max-width: 500px;
+}
+
+.popular-info h2 {
+    font-family: "Sofia Sans Condensed";
+    font-size: 30px;
+    color: rgb(14, 57, 68);
+    text-align: justify;
+}
+
+.info-box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.info-box>.gift {
+    border-right: 1px solid rgba(110, 110, 110, 0.618);
+    padding: 10px 10px 10px 0;
+    margin: 0 5px 0 0;
+}
+
+.info-box>.gift h6 {
+    font-family: "Didact Gothic", sans-serif;
+    color: #2f5972;
+    font-size: 20px;
+}
+
+.info-box>.gift p {
+    font-family: "Forum", serif;
+    color: #2f5972;
+    font-size: 19px;
+    text-align: center;
+}
+
+.info-box>.material-symbols-outlined {
+    font-size: 30px;
+    color: #2f5972;
+}
+
+.popular-info-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-info p {
+    font-family: "Source Code Pro", monospace;
+    color: #2f5972;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.popular-info-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-footer-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-author {
+    display: flex;
+    align-items: center;
+}
+
+.footer-author p {
+    font-size: 12px;
+    color: rgba(110, 110, 110, 0.889);
+}
+
+.footer-author>.material-symbols-outlined {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #2f5972;
+}
+
+.two {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+footer {
+    background-image: linear-gradient(#154F5D, #0A2044);
+    padding: 50px 0 50px 0;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-conatiner {
+    margin: 0 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.project {
+    max-height: 500px;
+    height: 100%;
+}
+
+.project h6 {
+    color: white;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.project ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    height: 250px;
+
+}
+
+.project li {
+    color: white;
+    list-style-type: none;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.poderjka {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.lern {
+    margin-bottom: 20px;
+}
+
+.project li:hover {
+    cursor: pointer;
+}
